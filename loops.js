@@ -1,42 +1,14 @@
-  function forLoop(arr) {
 
-   for(let i = 0; i < 25; i++){
 
-     if (i === 1){
+function forLoop(array){
 
-       arr.push(`I am 1 strange loop.`);
+  for(var i = 0; i < 25; i++){
 
-     } else {
-       arr.push(`I am ${i} strange loops.`);
-     }
-   }
-return arr;
-
- }
-
-function whileLoop(n){
-
-  while (n > 0) {
-    console.log(n--);
-
+    if (i === 1){
+      return `I am ${i} strange loop`
+    } else{
+      return `I am ${i stange loops}`
+    }
   }
-    return "done"
-}
-
-
-let num = 0;
-
-function incrementVariable() {
-  num = num + 1;
-  return num;
-}
-
-
-function doWhileLoop(integer){
-
-  do {
-  console.log('I run once regardless');
-   }
-   while (incrementVariable() < integer+1);
-
+    
 }

@@ -24,17 +24,19 @@ function whileLoop(n){
 }
 
 
-
-var i = 0;
+let num = 0;
 
 function incrementVariable() {
-  i = i + 1;
-  return i;
+  num = num + 1;
+  return num;
 }
+
 
 function doWhileLoop(integer){
 
-do {
-  console.log("I run once regardless.");
-} while (incrementVariable() < integer+1);
+  do {
+  console.log('I run once regardless');
+   }
+   while (incrementVariable() < integer+1);
+
 }

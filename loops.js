@@ -10,5 +10,5 @@ function forLoop(array){
       return `I am ${i stange loops}`
     }
   }
-    
+
 }
